@@ -12,6 +12,8 @@ html {
 
 body {
   margin: 0;
+  font-family: $font-family;
+  background-color: var(--basic-bg);
 }
 
 h1,
@@ -25,7 +27,8 @@ li {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;

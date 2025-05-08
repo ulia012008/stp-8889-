@@ -10,6 +10,7 @@ export default defineConfig(({ command }) => {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
+    base: '/stp-8889/',
     root: 'src',
     build: {
       sourcemap: true,
